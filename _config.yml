@@ -1,3 +1,21 @@
-theme: jekyll-theme-minimal
-title: Navneeth Gokul's homepage
-description: Bookmark this to keep an eye on my project updates!
+# Site Settings
+title: Navneeth Gokul
+description: My personal website for my projects
+url: "https://navneeth3005.github.io/"
+github_username: navneeth3005
+
+# Build settings
+theme: jekyll-theme-minimal # A clean, default GitHub Pages theme
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude files from being processed by Jekyll
+exclude:
+  - README.md
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
